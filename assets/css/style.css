@@ -18,6 +18,11 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/* Nav styles */
+    nav {
+        font-family: 'Bitcount Grid Double';
+    }
+
 /* Header */
 header {
     background-color: aquamarine;
