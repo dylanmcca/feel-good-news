@@ -31,8 +31,11 @@ header {
 }
 
 h1 {
-    font-family: 'Bitcount Grid Double';
-    
+    font-family: 'Bitcount Grid Double'; 
+}
+
+#logo {
+    font-size: 600%;
 }
 
 /* main content */
