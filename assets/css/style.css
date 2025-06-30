@@ -13,4 +13,21 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+/* add Generic project styles */
+    color: #3a3a3a;   
+}
+
+/* Header */
+header {
+    background-color: aquamarine;
+}
+
+/* main content */
+main {
+    background-color: blueviolet;
+}
+
+/* Footer */
+footer {
+    background-color: beige;
 }
