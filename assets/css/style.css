@@ -20,17 +20,19 @@ body {
 
 /* Nav styles */
     nav {
-        font-family: 'Bitcount Grid Double';
+        font-family: 'Oswald';
+        font-size: 150%;
     }
 
 /* Header */
 header {
     background-color: aquamarine;
+    font-size: 150%;
 }
 
 h1 {
     font-family: 'Bitcount Grid Double';
-    font-size: 200%;
+    
 }
 
 /* main content */
