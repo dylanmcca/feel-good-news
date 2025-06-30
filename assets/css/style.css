@@ -46,6 +46,20 @@ h1 {
     color:#3a3a3a
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > lli {
+    margin-bottom: 2em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 #logo {
     font-size: 600%;
 }
