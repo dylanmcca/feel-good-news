@@ -28,10 +28,22 @@ body {
 header {
     background-color: aquamarine;
     font-size: 150%;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 h1 {
     font-family: 'Bitcount Grid Double'; 
+    letter-spacing: 2px;
+    color:#3a3a3a
 }
 
 #logo {
