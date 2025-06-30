@@ -39,7 +39,7 @@
 
     <main> 
         <p>Less bad news MORE good news 👍</p>
-        <div id="hero"><img src="assets/images/owl-what.jpg" alt="Owl asking you - whaaaat?"></div>
+        <div><img src="assets/images/racoon.jpg" alt="Racoon - celebrating signup"></div>
 
     </main>
 
