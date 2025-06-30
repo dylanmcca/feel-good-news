@@ -25,6 +25,7 @@ header {
 /* main content */
 main {
     background-color: blueviolet;
+    flex: 1 0 auto;
 }
 
 /* Footer */
