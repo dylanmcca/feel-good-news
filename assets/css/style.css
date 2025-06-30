@@ -43,5 +43,10 @@ main {
 
 /* Footer */
 footer {
-    background-color: palevioletred;
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
 }
