@@ -7,3 +7,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* adding general styles for site */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
