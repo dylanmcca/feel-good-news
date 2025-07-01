@@ -83,7 +83,8 @@ h1 {
     }
 
     #logo {
-    font-size: 400%;
+    font-size: 430%;
+    line-height: 75px;
     }
 
 /* main content */
@@ -105,7 +106,6 @@ main {
     position: center;
 
 }
-
 
 /* Footer */
 #social-networks {
@@ -152,5 +152,12 @@ main {
 
     .nav-toggle-label {
         display: none;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
     }
 }
