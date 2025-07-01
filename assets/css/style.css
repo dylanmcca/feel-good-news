@@ -89,22 +89,19 @@ h1 {
 
 /* main content */
 main {
-    background-color: beige;
+    background-color: aquamarine;
     width: 100%;
     /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 160px;
-    display: flex;
-    
-    
+    margin-top: 100px;
+    display: flex;   
 }
 
-#hero {
-    height: 600px;
-    width: 100%
-    background: url("../images/owl-what.jpg") no-repeat center center/cover;
-    position: center;
-
+.hero {
+    height: 800px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+   
 }
 
 /* Footer */
