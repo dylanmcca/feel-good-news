@@ -18,19 +18,12 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-/* Nav styles */
-    nav {
-        font-family: 'Oswald';
-        font-size: 150%;
-    }
-
 /* Header */
 header {
     background-color: aquamarine;
-    font-size: 150%;
     padding: 0 1rem;
     position: fixed;
-    z-index: 99;
+    z-index: ;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
 }
@@ -57,6 +50,13 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* Nav styles */
+    nav {
+        position: absolute;
+        font-family: 'Oswald';
+        font-size: 150%;
+    }
+
 #logo {
     font-size: 600%;
 }
@@ -64,7 +64,10 @@ h1 {
 /* main content */
 main {
     background-color: beige;
+    /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    display: flex;
+    width: 100%;
     
 }
 
@@ -72,9 +75,8 @@ main {
     height: 600px;
     width: 100%
     background: url("../images/owl-what.jpg") no-repeat center center/cover;
-    position: relative;
+    position: center;
     margin-top: 400px;
-    display: flex;
 }
 
 
@@ -82,7 +84,7 @@ main {
 #social-networks {
     background-color: white;
     text-align: center;
-    padding: 40px;
+    padding: 10px;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -91,5 +93,12 @@ main {
 #social-networks i {
     font-size: 180%;
     padding: 7%;
-    color: ;
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
