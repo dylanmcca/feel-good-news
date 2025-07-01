@@ -52,9 +52,6 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
-    margin-bottom: 2em;
-}
 
 .active {
     border-bottom: 1px solid #3a3a3a;
@@ -76,6 +73,8 @@ main {
     width: 100%
     background: url("../images/owl-what.jpg") no-repeat center center/cover;
     position: relative;
+    margin-top: 400px;
+    display: flex;
 }
 
 
