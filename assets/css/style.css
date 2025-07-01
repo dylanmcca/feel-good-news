@@ -101,7 +101,17 @@ main {
     height: 800px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
    
+}
+
+#cover-text {
+    background-color: rgba(234, 18, 194, 0.9);
+    position: absolute;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
 }
 
 /* Footer */
@@ -150,6 +160,7 @@ main {
     .nav-toggle-label {
         display: none;
     }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
