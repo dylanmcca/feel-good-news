@@ -23,7 +23,7 @@ header {
     background-color: aquamarine;
     padding: 0 1rem;
     position: fixed;
-    z-index: 00;
+    z-index: 1000;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
@@ -92,8 +92,8 @@ main {
     background-color: aquamarine;
     width: 100%;
     /* make main element take up any surplus space to push footer down */
-    flex: 1;
-    margin-top: 100px;
+    flex: 1 0 auto;
+    margin-top: 50px;
     display: flex;   
 }
 
@@ -112,6 +112,14 @@ main {
     background: url("../images/supernews.jpg") no-repeat center center/cover;
     position: relative;
     margin-top: 150px;
+}
+
+#hero3 {
+    height: 600px;
+    width: 100%;
+    background: url("../images/racoon.jpg") no-repeat center center/cover;
+    position: relative;
+    margin-top: 150px;    
 }
 
 #cover-text {
