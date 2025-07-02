@@ -96,9 +96,6 @@ main {
     margin-top: 50px;
     display: flex; 
 }
- #main {
-    position: relative;
- }
 
 #hero {
     height: 600px;
@@ -126,12 +123,20 @@ main {
     margin-top: 150px;    
 }
 
+#joined {
+    height: 600px;
+    width: 100%;
+    background: url("../images/joined.jpg") no-repeat center center/cover;
+    position: relative;
+    margin-top: 150px;
+}
+
 #cover-text {
+    padding-top: 50px;
     background-color: rgba(234, 18, 194, 0.6);
     position: flex;
     width: 100%;
-    padding-bottom: 7px;
-    padding-top: 30px;
+
 }
 
 #cover-text > h2, #cover-text > h3 {
@@ -199,7 +204,18 @@ main {
     margin-top: 435px;
     background-color: aquamarine;
     width: 100%;
+    height: 95%;
     padding-bottom: 30px;
+ }
+
+ #reasons h2 {
+    padding-top: 20px;
+    margin-left: 20px;
+ }
+
+ #benefits1 {
+    padding-top: 20px;
+    margin-left: 20px;
  }
 
  #stories {
@@ -209,6 +225,17 @@ main {
     padding-bottom: 30px;
     height: 95%;
  }
+
+ #stories h2 {
+    padding-top: 20px;
+    margin-left: 20px;
+ }
+
+ #good-news {
+    padding-top: 20px;
+    margin-left: 20px;
+ }
+ 
 
   #signup {
     margin-top: 450px;
@@ -246,3 +273,40 @@ main {
    font-weight: 500;
    background-color: rgba(234, 18, 194);
   }
+
+  #joined {
+    background-color: aquamarine;
+    width: 100%;
+    height: 600px;
+    padding-bottom: 30px;
+    flex-grow: 1; 
+  }
+
+  #joined-main {
+    background-color: aquamarine;
+    height: 100%;
+    margin-top: 450px;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  #joined-main h2 {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  #cover-text-joined {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: rgba(234, 18, 194, 0.8);
+    color: #ffffff;
+  }
+
+ .button-home {
+    margin-left: 50px;
+    color: rgba(234, 18, 194);
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+  }
+
