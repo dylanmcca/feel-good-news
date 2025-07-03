@@ -135,8 +135,7 @@ main {
     padding-top: 50px;
     padding-left: 10px;
     padding-bottom: 5px;
-    background-color: rgba(234, 18, 194, 0.6);
-    position: flex;
+    background-color: rgba(234, 18, 194, 0.6);    
     width: 100%;
 
 }
@@ -165,7 +164,7 @@ main {
 }
 
 
-* Media query: large or landscape phones (576px and up) */
+/* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
         column-count: 2;
