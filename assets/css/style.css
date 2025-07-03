@@ -133,6 +133,8 @@ main {
 
 #cover-text {
     padding-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 5px;
     background-color: rgba(234, 18, 194, 0.6);
     position: flex;
     width: 100%;
@@ -142,6 +144,8 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
     padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
 }
 
 /* Footer */
